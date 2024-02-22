@@ -1,4 +1,10 @@
 ﻿################################################################################
+#HEY AGAIN
+
+# here u mioght wanna update ui colors if ur not a pastel purple person like i was!
+#u can also update ur font and font options! ive included stuff here and on screens.rpy for how to add in multiple font options for accessibility!
+
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -55,6 +61,8 @@ define gui.interface_text_color = '#050505'
 ## Fonts and Font Sizes ########################################################
 
 define gui.text_font = gui.preference("font", "images/whitrabt.ttf") 
+#the "font" before the actual font file path is how its s et as a varaiable! u can see screens.rpy to see how we set up the other font to be selected
+# its in the options/preferences section there! I do this for all 3 main fonts in game
 
 ## The font used for character names.
 define gui.name_text_font = gui.preference("font", "images/whitrabt.ttf")
@@ -373,6 +381,8 @@ define gui.nvl_list_length = 10
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.
+
+#THIS IS HOW THE STICKERS CAN DISPLAY RIGHT
 define gui.nvl_height = None
 
 ## The spacing between NVL-mode entries when gui.nvl_height is None, and between

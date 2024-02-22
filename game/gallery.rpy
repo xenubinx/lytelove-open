@@ -1,3 +1,5 @@
+##THIS ISNT MY CODE, I GOT IT FROM A TUTORIAL IR A FORUM, BUT IT WORKS AS LONG AS U KNOW HOW TO USE THE VARIABLES :) 
+
 init python:
     gallery = Gallery()
 

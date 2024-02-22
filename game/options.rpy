@@ -3,7 +3,7 @@
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
-
+# YOU SHOULD PROLLY UPDATE THE CONFIG NAME AND STUFF TO FIT UR GAMES TITLE IF U USE THIS AS A TEMPLATE :D 
 
 ## Basics ######################################################################
 

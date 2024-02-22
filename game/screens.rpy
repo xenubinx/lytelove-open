@@ -1,4 +1,10 @@
 ﻿################################################################################
+#HEY YOU
+
+#IF UR HERE, T HERE IS SOMETHING U CAN LOOK AT BUT NOTHING U NEED TO CHANGE
+# GO TO LINE 1331 ish
+
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -205,6 +211,8 @@ style input:
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
 ## menus.
 
+
+##FULL disclosure, i commented this out since im using the esc key and the image buttons on the task bar screen in screens/rpy for most of these features :) 
 screen quick_menu():
 
     ## Ensure this appears on top of other screens.
@@ -256,7 +264,9 @@ style quick_button_text:
 
 #screen navigation():
 
-    
+##HAHA so this part is empty, but here's why
+
+#because my main menu and game menu are two completely different layouts, esp bc of the save/load screen, my main menu wouldnt work :) so this part was removed, scroll on down for the rest 
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
@@ -319,6 +329,7 @@ screen main_menu():
         imagebutton auto "gui/mm_options_%s.png" xpos 356 ypos 1024 focus_mask True action ShowMenu("preferences") hovered [ Play("sound", "audio/click.wav") ]
 
         imagebutton auto "gui/mm_gallery_%s.png" xpos 32 ypos 30 focus_mask True action ShowMenu("album") hovered [ Play("sound", "audio/click.wav") ]
+        #most of these are straight forward, but the one below i thought was neat to point out/comment on! u can link to URLs :)
         imagebutton auto "gui/mm_weblink_%s.png" xpos 32 ypos 180 focus_mask True action OpenURL("https://xenubinstudios.itch.io/") hovered [ Play("sound", "audio/click.wav")]
 
         if _in_replay:
@@ -730,6 +741,8 @@ screen preferences():
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
 
+                #bam, font options. 
+                #this is how u change the font to be what u selected! you can add in more than 2 :) but keep in mind, if u do open dyslexic its way bigger than the other fonts and may not work without some serious tweaking  of ur ui :) 
                 vbox:
                     style_prefix "check"
                     label _("Font")
@@ -1324,7 +1337,7 @@ screen nvl_dialogue(dialogue):
 
                 if "icon" in d.who_args:
                     add d.who_args["icon"] pos (0.11, 0.0) anchor (0.0, -0.4)
-
+                #the above is how u add icons to ur nvl :) u can update the pause and anchor so it sits right with ur text based on ur image size! 
                 if d.who is not None:
 
                     text d.who:
