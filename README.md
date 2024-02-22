@@ -13,6 +13,7 @@ I'll leave the code fully commented, but please feel free to use or modify this 
 * custom icons and text chat colors for your player
 * a custom 'mini profile' that displays in the bottomleft with an updating icon and username.
 * nvl based chat system
+* probably other things im forgetting
 
 Im horrible at writing descriptions, so please feel free to look at all the code files!
 
