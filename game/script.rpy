@@ -107,7 +107,7 @@ label start:
     
 
 
-    
+    $ chosen_color = "#D82797"
     $ mr.play()
     $ track = renpy.music.get_playing() #setting the track stuff up for the  music player
     play music two
